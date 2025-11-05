@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif; 
+    line-height: 1.6;
+    color: #777;
+    background-color: #fff;
+}
+
+h1, h2, h3, h4 {
+    color: #444;
+    margin-bottom: 15px;
+    font-weight: normal; 
+}
+
+h1 { font-size: 50px; }
+h2 { font-size: 40px; }
+h4 { font-size: 18px; font-weight: bold; }
+
+p {
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #50a1d8;
+}
+
+.container {
+    width: 1100px; 
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.botao {
+    display: inline-block;
+    background: #50a1d8;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.botao-branco {
+    background: #fff;
+    color: #50a1d8;
+}
+
+#cabecalho {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 0;
+    z-index: 10;
+    color: #fff;
+}
+
+.logo {
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.template-by {
+    font-size: 11px;
+    font-weight: normal;
+    letter-spacing: 0;
+    opacity: 0.7;
+    margin-left: 5px;
+}
+
+.menu {
+    float: right;
+    padding-top: 5px; 
+}
+
+.menu a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.menu a i {
+    margin-right: 10px;
+}
+
+#banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px; 
+    text-align: center;
+    color: #fff;
+}
+
+.banner-texto {
+    padding-top: 200px; 
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.banner-texto h1 {
+    color: #fff;
+}
+
+.banner-texto p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 1.4;
+}
+
+.secao {
+    padding: 80px 0;
+}
+
+.coluna-metade {
+    float: left;
+    width: 50%;
+    padding: 0 25px; 
+}
+
+.img-circulo {
+    width: 450px; 
+    height: 450px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.titulo-secao {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 50px auto;
+}
+
+.coluna-terco {
+    float: left;
+    width: 33.333%;
+    padding: 0 15px; 
+    text-align: center;
+}
+
+.img-circulo-pequena {
+    width: 300px; 
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 25px;
+}
+
+#rodape {
+    background: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+    color: #aaa;
+}
+
+#rodape .icones-sociais {
+    margin-bottom: 20px;
+}
+
+#rodape .icones-sociais a {
+    color: #aaa;
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+#rodape .copyright {
+    font-size: 14px;
+}
+
+#rodape .copyright a {
+    color: #888;
+    font-weight: bold;
+}
